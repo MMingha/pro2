@@ -522,12 +522,17 @@ a.text-black.active {
   color: #000000 !important;
 }
 a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
-  transition: 0.2s;
   position: relative;
-  background-image: linear-gradient(currentColor 50%, currentColor 50%);
+  background-image: transparent;
   background-size: 10000px 2px;
   background-repeat: no-repeat;
-  background-position: 0 1.2em;
+  background-position: 0px 1.2em;
+  background-position: -10000px 1.2em;
+}
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption):hover {
+  transition: background-position 2s ease-in-out;
+  background-image: linear-gradient(currentColor 50%, currentColor 50%);
+  background-position: 0px 1.2em;
 }
 .nav-tabs .nav-link.active {
   color: #cea201;
@@ -1488,39 +1493,6 @@ a {
 .cid-tFirq4Yi5L H5 {
   color: #cea201;
 }
-.cid-tFoNWR0dlF {
-  padding-top: 9rem;
-  padding-bottom: 6rem;
-  background-image: url("../../../assets/images/close-up-hand-with-pincher-tool-holding-sim-card-slot-with-nano-sim-black-magnet-plate-portable-tookit-electronic-repeirment-service-1-2000x1333.jpeg");
-}
-.cid-tFoNWR0dlF .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-tFoNWR0dlF .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-tFoNWR0dlF .mbr-text,
-.cid-tFoNWR0dlF .mbr-section-btn {
-  color: #232323;
-}
-.cid-tFoNWR0dlF .card-title,
-.cid-tFoNWR0dlF .card-box {
-  color: #ffffff;
-}
-.cid-tFoNWR0dlF .mbr-text,
-.cid-tFoNWR0dlF .link-wrap {
-  color: #ffffff;
-}
-.cid-tFoNWR0dlF .card-box .mbr-text,
-.cid-tFoNWR0dlF .mbr-section-btn {
-  color: #ffffff;
-}
 .cid-tFftTrZfHJ {
   z-index: 1000;
   width: 100%;
@@ -1870,6 +1842,39 @@ a {
     left: -1rem;
   }
 }
+.cid-tFoNWR0dlF {
+  padding-top: 9rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/close-up-hand-with-pincher-tool-holding-sim-card-slot-with-nano-sim-black-magnet-plate-portable-tookit-electronic-repeirment-service-1-2000x1333.jpeg");
+}
+.cid-tFoNWR0dlF .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tFoNWR0dlF .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tFoNWR0dlF .mbr-text,
+.cid-tFoNWR0dlF .mbr-section-btn {
+  color: #232323;
+}
+.cid-tFoNWR0dlF .card-title,
+.cid-tFoNWR0dlF .card-box {
+  color: #ffffff;
+}
+.cid-tFoNWR0dlF .mbr-text,
+.cid-tFoNWR0dlF .link-wrap {
+  color: #ffffff;
+}
+.cid-tFoNWR0dlF .card-box .mbr-text,
+.cid-tFoNWR0dlF .mbr-section-btn {
+  color: #ffffff;
+}
 .cid-tFtFlBxbR7 {
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -2014,73 +2019,6 @@ a {
 }
 .cid-tFirq4Yi5L H5 {
   color: #cea201;
-}
-.cid-tFoNx83dvh {
-  padding-top: 9rem;
-  padding-bottom: 6rem;
-  background-image: url("../../../assets/images/close-up-hand-with-pincher-tool-holding-sim-card-slot-with-nano-sim-black-magnet-plate-portable-tookit-electronic-repeirment-service-1-2000x1333.jpeg");
-}
-.cid-tFoNx83dvh .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-tFoNx83dvh .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-tFoNx83dvh .mbr-text,
-.cid-tFoNx83dvh .mbr-section-btn {
-  color: #232323;
-}
-.cid-tFoNx83dvh .card-title,
-.cid-tFoNx83dvh .card-box {
-  color: #ffffff;
-}
-.cid-tFoNx83dvh .mbr-text,
-.cid-tFoNx83dvh .link-wrap {
-  color: #ffffff;
-}
-.cid-tFoNx83dvh .card-box .mbr-text,
-.cid-tFoNx83dvh .mbr-section-btn {
-  color: #ffffff;
-}
-.cid-tFgQeLgNyW {
-  padding-top: 7rem;
-  padding-bottom: 1rem;
-  background-color: #ffffff;
-}
-.cid-tFgQeLgNyW .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-tFgQeLgNyW .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-tFgQeLgNyW .mbr-text,
-.cid-tFgQeLgNyW .mbr-section-btn {
-  color: #232323;
-}
-.cid-tFgQeLgNyW .card-title,
-.cid-tFgQeLgNyW .card-box {
-  color: #000000;
-  text-align: center;
-}
-.cid-tFgQeLgNyW .mbr-text,
-.cid-tFgQeLgNyW .link-wrap {
-  color: #ffffff;
-}
-.cid-tFgQeLgNyW .card-box .mbr-text,
-.cid-tFgQeLgNyW .mbr-section-btn {
-  color: #000000;
 }
 .cid-tFgQeLV3OM {
   z-index: 1000;
@@ -2430,6 +2368,73 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
+}
+.cid-tFoNx83dvh {
+  padding-top: 9rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/close-up-hand-with-pincher-tool-holding-sim-card-slot-with-nano-sim-black-magnet-plate-portable-tookit-electronic-repeirment-service-1-2000x1333.jpeg");
+}
+.cid-tFoNx83dvh .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tFoNx83dvh .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tFoNx83dvh .mbr-text,
+.cid-tFoNx83dvh .mbr-section-btn {
+  color: #232323;
+}
+.cid-tFoNx83dvh .card-title,
+.cid-tFoNx83dvh .card-box {
+  color: #ffffff;
+}
+.cid-tFoNx83dvh .mbr-text,
+.cid-tFoNx83dvh .link-wrap {
+  color: #ffffff;
+}
+.cid-tFoNx83dvh .card-box .mbr-text,
+.cid-tFoNx83dvh .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-tFgQeLgNyW {
+  padding-top: 7rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+}
+.cid-tFgQeLgNyW .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tFgQeLgNyW .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tFgQeLgNyW .mbr-text,
+.cid-tFgQeLgNyW .mbr-section-btn {
+  color: #232323;
+}
+.cid-tFgQeLgNyW .card-title,
+.cid-tFgQeLgNyW .card-box {
+  color: #000000;
+  text-align: center;
+}
+.cid-tFgQeLgNyW .mbr-text,
+.cid-tFgQeLgNyW .link-wrap {
+  color: #ffffff;
+}
+.cid-tFgQeLgNyW .card-box .mbr-text,
+.cid-tFgQeLgNyW .mbr-section-btn {
+  color: #000000;
 }
 .cid-tFngDcpLAO {
   padding-top: 0rem;
